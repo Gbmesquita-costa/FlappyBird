@@ -20,6 +20,6 @@ Nenhum pré-requisito especial é necessário. Basta um navegador web padrão.
 2. Abra o arquivo `index.html` em um navegador web.
 
 ## Personalização
-Você pode personalizar o jogo ajustando as variáveis no arquivo `jogo.js` ou index.html. Experimente alterar a velocidade, a gravidade, tamanho de tela, etc.
+Dê um toque exclusivo ao jogo ajustando as variáveis no arquivo jogo.js. Explore a personalização da velocidade, ajuste da gravidade, dimensionamento da tela e adapte o jogo conforme suas preferências. Solte a criatividade! 
 
 Divirta-se jogando Flappy Bird! 🚀
