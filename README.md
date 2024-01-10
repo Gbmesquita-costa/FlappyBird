@@ -12,9 +12,6 @@ Este é um clone simples do famoso jogo Flappy Bird, desenvolvido em JavaScript.
 2. Pressione a barra de espaço para fazer o pássaro pular e evite os canos.
 3. Cada cano evitado aumenta a pontuação do jogador.
 
-## Demonstração
-[Inserir link para uma demo do jogo, se aplicável]
-
 ## Pré-requisitos
 Nenhum pré-requisito especial é necessário. Basta um navegador web padrão.
 
@@ -23,6 +20,6 @@ Nenhum pré-requisito especial é necessário. Basta um navegador web padrão.
 2. Abra o arquivo `index.html` em um navegador web.
 
 ## Personalização
-Você pode personalizar o jogo ajustando as variáveis no arquivo `jogo.js`. Experimente alterar a velocidade, a gravidade ou até mesmo os gráficos para deixar o jogo mais interessante.
+Você pode personalizar o jogo ajustando as variáveis no arquivo `jogo.js` ou index.html. Experimente alterar a velocidade, a gravidade, tamanho de tela, etc.
 
 Divirta-se jogando Flappy Bird! 🚀
