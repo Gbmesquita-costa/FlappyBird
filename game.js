@@ -49,12 +49,8 @@ function gameFloor() {
     update() {
       const moveFloor = 1
       const repeat = floor.width / 2
+
       const mov = floor.x - moveFloor
-
-      // console.log('[floor.x]', floor.x)
-      // console.log('[repeat]',repeat)
-      // console.log('[mov]', mov % repeat)
-
       floor.x = mov % repeat
     },
     draw() {
@@ -286,8 +282,8 @@ function createScoreBoard() {
     punctuation: 0,
     draw() {
       context.font = '35px "VT323"'
-      context.textAlign = 'right'
-      context.fillStyle = 'white'
+      context.textAlign = "right"
+      context.fillStyle = "white"
       context.fillText(`${score.punctuation}`, canvas.width - 10, 35)
     },
     update() {
@@ -370,7 +366,7 @@ screens.GAME_OVER = {
     gameOver.draw()
   },
   update() {
-
+    globais.score.punctuation = globais.score.punctuation
   },
   click() {
     changeScreen(screens.START)
@@ -394,7 +390,7 @@ window.addEventListener("keydown", function (event) {
   }
 })
 
-window.addEventListener("click", function () {
+window.addEventListener("click", function (event) {
   if (activeScreen.click) {
     activeScreen.click()
   }
